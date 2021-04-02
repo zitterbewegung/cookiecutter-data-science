@@ -30,19 +30,20 @@ setup(
         'Intended Audience :: Science/Research',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: MIT License',
+        # 'License :: OSI Approved :: MIT License',
+        'License :: No license file'
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
 
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     install_requires=['cookiecutter', 'click'],
     entry_points={
         'console_scripts': [

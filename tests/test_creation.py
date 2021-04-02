@@ -77,6 +77,8 @@ def verify_files(root, config):
     expected_files = [
         'Makefile',
         'README.md',
+        'pyproject.toml',
+        'setup.cfg',
         'setup.py',
         ".env",
         ".gitignore",

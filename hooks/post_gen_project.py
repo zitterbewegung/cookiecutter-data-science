@@ -34,7 +34,7 @@ def write_dependencies():
     if dependencies == 'requirements.txt':
         with open(dependencies, 'w') as f:
             lines = sorted(packages + pip_only_packages)
-            
+
             lines += [
                 ""
                 "-e ."

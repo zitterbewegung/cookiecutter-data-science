@@ -18,7 +18,7 @@ default_args = {
     'module_name': 'project_module',
     'author_name': 'DrivenData',
     'description': 'A test project',
-    'open_source_license' : 'MIT',
+    'open_source_license' : 'No license file',
     'dataset_storage': {"azure": {"container": "container-name"}},
 }
 
